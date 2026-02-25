@@ -1,0 +1,35 @@
+{
+  "name": "mcp-waha",
+  "version": "1.0.0",
+  "description": "MCP server for interacting with Waha API",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-waha": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "waha",
+    "whatsapp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GabsPereiraDev/mcp-waha.git"
+  },
+  "author": "GabsPereiraDev",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

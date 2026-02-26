@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "waha": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "git+https://github.com/GabsPereiraDev/mcp-waha.git"
+      ],
+      "env": {
+        "WAHA_API_URL": "http://localhost:3000",
+        "WAHA_SESSION": "default",
+        "WAHA_API_KEY": ""
+      }
+    }
+  }
+}
